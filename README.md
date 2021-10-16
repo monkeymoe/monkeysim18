@@ -3,3 +3,5 @@ this is Monkey Simulator version 18
 To install the game either install monkeysim18exe.exe, run the exe and download it somewhere. Then open the folder where you downloaded it to and run main.exe
 
 Option two is install main.exe, banana.png, and monkey.png, then put them into a folder and run main.exe
+
+Option three is only if you have python and pygame installed on your computer, it is the same as option two but download main.py instead of main.exe
