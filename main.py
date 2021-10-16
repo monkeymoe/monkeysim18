@@ -4,7 +4,7 @@ import random
 WIDTH = 1920
 HEIGHT = 1020
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Monkey Simulator 18_Alpha")
+pygame.display.set_caption("Monkey Simulator 18")
 
 LB = 173,216,230
 
@@ -55,8 +55,8 @@ def main():
     banana_active_time = 2500
     banana_inactive_time = 1000
 
-    rsp_x = random.randrange(100, 1800)
-    rsp_y = random.randrange(100, 800)
+    rsp_x = random.randrange(0, WIDTH)
+    rsp_y = random.randrange(0, HEIGHT)
 
     monkey_rect = pygame.Rect(700, 300, MONKEY_WIDTH, MONKEY_HEIGHT)
     banana_rect = pygame.Rect(rsp_x,rsp_y,BANANA_WIDTH, BANANA_HEIGHT)
@@ -97,8 +97,6 @@ def main():
 
         pygame.display.update()
         
-
-    pygame.quit()
 
 
 if __name__ == "__main__":
